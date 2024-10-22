@@ -1,0 +1,39 @@
+header{
+    background-color: rgba(251, 255, 0, 0.699);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        h1{
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 400;
+
+        }
+
+    }
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+
+            li{
+                margin: 2px;
+
+                a{
+                    &:hover{
+                        color: red;
+                        text-decoration: none;
+                    }
+
+
+                }
+            }
+        }
+
+    }
+}
