@@ -1,26 +1,36 @@
 /* Funcionalidades*/
 /*! Variables*/
+/*!LISTA */
+/*! OPERACIONES*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
 header {
-  background-color: rgba(251, 255, 0, 0.699);
+  background-color: #fdf900;
   padding: 10px;
   justify-content: space-between;
   align-items: center; }
-  header a {
+  header a img {
     width: 80px;
     height: 80px;
     display: flex;
     justify-content: center; }
-    header a h1 {
-      font-size: 50px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-weight: 400; }
+  header a h1 {
+    font-size: nth size, 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400; }
   header nav ul {
     list-style: none;
     display: flex; }
     header nav ul li {
       margin: 2px; }
       header nav ul li a:hover {
-        color: red;
+        color: blue;
         text-decoration: none; }
 
 /* INDEX */
@@ -37,3 +47,87 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.bienvenidos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px; }
+  .bienvenidos div {
+    width: 50%; }
+    .bienvenidos div h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 40px; }
+      .bienvenidos div h2 p {
+        font-family: cursive;
+        font-size: 30px; }
+        .bienvenidos div h2 p img {
+          width: 400px;
+          height: 400px; }
+
+.productos h2 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.productos div h3 {
+  font-size: 30px;
+  margin: 20px; }
+  .productos div h3 a {
+    background-color: #d0ff00;
+    color: white;
+    padding: 50px; }
+    .productos div h3 a img {
+      width: 300px;
+      padding: 50px; }
+
+.productos .productos-genero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+  .productos .productos-genero div {
+    border: 1px solid black;
+    width: 450px;
+    height: 550px;
+    text-align: center;
+    margin: 60px;
+    padding: 5px;
+    box-shadow: 9px 11px 33px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 11px 33px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 11px 33px -7px rgba(0, 0, 0, 0.75); }
+
+.fixed {
+  position: fixed;
+  bottom: 80px;
+  right: 50px; }
+  .fixed a img {
+    width: 80px; }
+
+footer {
+  background-color: khaki;
+  margin-top: 60px; }
+  footer img {
+    width: 50px; }
+    footer img div a img {
+      width: 50px; }
+
+@media screen and (max-width: 568px) {
+  header {
+    flex-direction: column; } }
+
+@media screen and (max-width: 560px) {
+  .bienvenidos img {
+    display: none; } }
+
+@media screen and (max-width: 850px) {
+  .bienvenidos {
+    flex-direction: column; }
+    .bienvenidos div {
+      width: 90%;
+      padding: 4%; }
+      .bienvenidos div img {
+        width: 50%;
+        height: 100%; } }

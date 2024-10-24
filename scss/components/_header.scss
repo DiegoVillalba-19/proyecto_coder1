@@ -1,15 +1,17 @@
 header{
-    background-color: rgba(251, 255, 0, 0.699);
+    background-color: $color-principal;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
     a{
-        width: 80px;
-        height: 80px;
-        display: flex;
-        justify-content: center;
+        img{
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+        }
         h1{
-            font-size: 50px;
+            font-size: nth (size , 3);
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-weight: 400;
 
@@ -20,20 +22,15 @@ header{
         ul{
             list-style: none;
             display: flex;
-
             li{
                 margin: 2px;
-
                 a{
                     &:hover{
-                        color: red;
-                        text-decoration: none;
+                        color: $color-terciario;
+                        text-decoration: none ;
                     }
-
-
                 }
             }
         }
-
     }
 }

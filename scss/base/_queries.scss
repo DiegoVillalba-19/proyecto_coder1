@@ -1,0 +1,25 @@
+@media screen and (max-width:568px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:560px){
+    .bienvenidos img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:850px){
+    .bienvenidos{
+        flex-direction: column;
+        div{
+            width: 90%;
+            padding: 4%;
+            img{
+                width: 50%;
+                height: 100%;
+            }
+        }
+    }
+}

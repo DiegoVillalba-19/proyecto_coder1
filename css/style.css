@@ -100,7 +100,7 @@ header nav ul li a:hover {
 
 .bienvenidos div p {
     font-family: cursive;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .bienvenidos img {
@@ -123,29 +123,11 @@ header nav ul li a:hover {
 .productos h2 {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 60px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.productos .productos-genero {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-
-.productos .productos-genero div {
-    border: 1px solid black;
-    width: 250px;
-    height: 380px;
-    text-align: center;
-    margin: 15px;
-    box-shadow: 9px 11px 33px -7px rgba(0,0,0,0.75);
--webkit-box-shadow: 9px 11px 33px -7px rgba(0,0,0,0.75);
--moz-box-shadow: 9px 11px 33px -7px rgba(0,0,0,0.75);
-}
 
 .productos div h3 {
     font-size: 10px;
@@ -161,10 +143,28 @@ header nav ul li a:hover {
 
 .productos div img {
     width: 250px;
-    padding: 10px;
+    padding: 20px;
 }
 
 
+.productos .productos-genero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.productos .productos-genero div {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 60px;
+    box-shadow: 9px 11px 33px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 11px 33px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 11px 33px -7px rgba(0,0,0,0.75);
+}
 
 
 .fixed {
